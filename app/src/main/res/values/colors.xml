@@ -9,5 +9,11 @@
     <color name="white">#FFFFFFFF</color>
     <color name="custom_yellow">#f5c518</color>
     <color name="movieActivity_background">#1B1A1A</color>
+    <color name="hint_color">#6A6767</color>
+    <color name="custom_blue">#047bf8</color>
+    <color name="center_color">#ffa797ff</color>
+    <color name="start_color">#d3baea</color>
+    <color name="end_color">#84adef</color>
+    <color name="logout_btn">#D10024</color>
 
 </resources>

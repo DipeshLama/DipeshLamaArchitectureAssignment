@@ -29,7 +29,6 @@ class MoviePresenter : MvpBasePresenter<MovieView>() {
             },{
                 handleFailure(it.localizedMessage)
             })
-
     }
 
     private fun handleSuccess (movie : ArrayList<MovieResponse>){

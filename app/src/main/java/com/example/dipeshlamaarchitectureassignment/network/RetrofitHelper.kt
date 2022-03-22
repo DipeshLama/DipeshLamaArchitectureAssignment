@@ -11,6 +11,7 @@ import java.util.concurrent.TimeUnit
 
 object RetrofitHelper {
     private var movieApi : MovieApiService? = null
+    private var loginApi : LoginApiService? = null
 
     private val gson = GsonBuilder().setLenient().create()
 
@@ -33,5 +34,12 @@ object RetrofitHelper {
             movieApi = retrofit.create(MovieApiService::class.java)
         }
         return movieApi ?: retrofit.create(MovieApiService::class.java)
+    }
+
+    fun getLoginApiService () : LoginApiService{
+        if(loginApi == null){
+            loginApi = retrofit.create(LoginApiService::class.java )
+        }
+        return loginApi ?: retrofit.create(LoginApiService::class.java)
     }
 }

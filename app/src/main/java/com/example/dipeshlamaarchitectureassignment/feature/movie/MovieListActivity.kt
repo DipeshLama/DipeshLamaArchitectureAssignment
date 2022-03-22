@@ -28,7 +28,6 @@ class MovieListActivity : MvpActivity<MovieView,MoviePresenter>(),MovieView {
     private fun populateRecyclerView (list : ArrayList<MovieResponse>){
         val adapter = MovieAdapter(this,list)
         ryvMovieList.adapter = adapter
-//        adapter.notifyDataSetChanged()
     }
 
     override fun showError(localizedMessage: String?) {
@@ -39,5 +38,4 @@ class MovieListActivity : MvpActivity<MovieView,MoviePresenter>(),MovieView {
         ryvMovieList.layoutManager = LinearLayoutManager(this)
         presenter.getMovies()
     }
-
 }

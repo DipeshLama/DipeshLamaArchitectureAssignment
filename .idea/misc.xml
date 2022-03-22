@@ -3,8 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/DipeshLamaArchitectureAssignment/app/src/main/res/drawable/custom_buttom.xml" value="0.116" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/DipeshLamaArchitectureAssignment/app/src/main/res/drawable/custom_edittext.xml" value="0.116" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/DipeshLamaArchitectureAssignment/app/src/main/res/drawable/custom_gradient_background.xml" value="0.132" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/DipeshLamaArchitectureAssignment/app/src/main/res/drawable/ic_baseline_fingerprint_24.xml" value="0.132" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/DipeshLamaArchitectureAssignment/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.132" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/DipeshLamaArchitectureAssignment/app/src/main/res/layout/activity_login.xml" value="0.2" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/DipeshLamaArchitectureAssignment/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/DipeshLamaArchitectureAssignment/app/src/main/res/layout/activity_movielist.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/DipeshLamaArchitectureAssignment/app/src/main/res/layout/activity_splash.xml" value="0.2" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/DipeshLamaArchitectureAssignment/app/src/main/res/layout/movie_custom_list.xml" value="0.20416666666666666" />
       </map>
     </option>
